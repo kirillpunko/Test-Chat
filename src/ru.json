@@ -1,0 +1,40 @@
+{
+  "app": {
+    "title": "Test Chat",
+    "instancePrefix": "Инстанс: "
+  },
+  "login": {
+    "title": "Вход в Test Chat",
+    "subtitle": "Введите учетные данные вашего инстанса",
+    "idInstanceLabel": "idInstance",
+    "idInstancePlaceholder": "Например: 1101823456",
+    "apiTokenLabel": "apiTokenInstance",
+    "apiTokenPlaceholder": "Например: 21f58b...d91e",
+    "submitButton": "Войти",
+    "checkingButton": "Проверка...",
+    "validationError": "Пожалуйста, заполните idInstance и apiTokenInstance",
+    "idFormatError": "idInstance должен содержать только цифры",
+    "authError": "Не удалось авторизоваться. Проверьте idInstance и apiTokenInstance"
+  },
+  "sidebar": {
+    "title": "TEST CHAT",
+    "logout": "Выйти",
+    "logoutTooltip": "Выйти из аккаунта",
+    "phonePlaceholder": "Номер телефона получателя",
+    "createChat": "Создать чат",
+    "noChats": "Нет чатов. Введите номер телефона выше, чтобы создать диалог.",
+    "deleteChatTooltip": "Удалить чат"
+  },
+  "chat": {
+    "emptyState": "Выберите чат или введите номер получателя для начала диалога",
+    "subtitle": "чат в Test Chat",
+    "noMessages": "Здесь пока нет сообщений. Напишите первое сообщение!",
+    "inputPlaceholder": "Введите сообщение...",
+    "sendButton": "Отправить",
+    "sending": "...",
+    "sendError": "Ошибка отправки сообщения"
+  },
+  "errors": {
+    "pollingWarning": "Ошибка при опросе уведомлений:"
+  }
+}
